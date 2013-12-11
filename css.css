@@ -1,10 +1,15 @@
 body {
     overflow-x: hidden;
 }
+
 #fotos {
     background-color: black;
 }
 
 #final {
     background-color: black;
+}
+
+.teste {
+
 }

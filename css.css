@@ -2,6 +2,10 @@ body {
     overflow-x: hidden;
 }
 
+body {
+    background-color: black;
+}
+
 #fotos {
     background-color: black;
 }
@@ -9,4 +13,8 @@ body {
 #final {
     background-color: black;
 }
-    
+
+#meio {
+    background-color: black;
+}
+

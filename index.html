@@ -11,7 +11,8 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js">
     </script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/holder/2.0/holder.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/holder/2.0/holder.min.js">    '
+    </script>
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 </head>
 
@@ -39,7 +40,7 @@
 
                         <p>Pharetra in sodales at, interdum sit amet dui. Nullam vulputate euismod urna non
                             pharetra.</p>
-                        <button type="button" class="btn btn-success btn-lg">Buy Template</button>
+                            <button type="button" class="btn btn-success btn-lg">Buy Template</button>
                     </div>
                 </div>
             </div>
@@ -129,7 +130,7 @@
                     <a href="#" class="btn btn-success pull-right">Get in Touch</a>
                 </div>
             </div>
-        </div>
+    </div>
     </div>
 </div>
 
@@ -185,41 +186,62 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4 text-center">
-            <h4>CLICK THIS BOX</h4>
-
-            <div>Now that we know who you are, I know who I am.</div>
-            I'm not a mistake! It all makes sense!
+            <article class="et-wrapper et-rotate" data-slide-in="moveFromTop" data-slide-out="fade">
+                <div class="et-page features-box et-page-current">
+                    <i class="fa fa-bookmark-o"></i>
+                    <h3>Click This Box</h3>
+                    <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense!</p>
+                </div>
+            </article>
         </div>
         <div class="col-md-4 text-center">
-            <h4>CLICK TO REVEAL CONTENT</h4>
-
-            <div>Now that we know who you are, I know who I am.</div>
-            I'm not a mistake! It all makes sense!
+            <article class="et-wrapper et-rotate" data-slide-in="moveFromTop" data-slide-out="fade">
+                <div class="et-page features-box et-page-current">
+                    <i class="fa fa-bookmark-o"></i>
+                    <h3>Click To Reveal Content</h3>
+                    <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense!</p>
+                </div>
+            </article>
         </div>
         <div class="col-md-4 text-center">
-            CLICK THIS BOX
-            <div>Now that we know who you are, I know who I am.</div>
-            I'm not a mistake! It all makes sense!
+            <article class="et-wrapper et-rotate" data-slide-in="moveFromTop" data-slide-out="moveToRightFade">
+                <div class="et-page features-box et-page-current">
+                    <i class="fa fa-bell-o"></i>
+                    <h3>Click This Box</h3>
+                    <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense!</p>
+                </div>
+            </article>
         </div>
     </div>
     <br><br>
 
     <div class="row">
         <div class="col-md-4 text-center">
-            CLICK THIS BOX
-            <div>Now that we know who you are, I know who I am.</div>
-            I'm not a mistake! It all makes sense!
+            <article class="et-wrapper et-rotate" data-slide-in="moveFromTop" data-slide-out="fade">
+                <div class="et-page features-box et-page-current">
+                    <i class="fa fa-bookmark-o"></i>
+                    <h3>Click This Box</h3>
+                    <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense!</p>
+                </div>
+            </article>
         </div>
         <div class="col-md-4 text-center">
-            <h4>CLICK TO REVEAL CONTENT</h4>
-
-            <div>Now that we know who you are, I know who I am.</div>
-            I'm not a mistake! It all makes sense!
+            <article class="et-wrapper et-rotate" data-slide-in="moveFromTop" data-slide-out="fade">
+                <div class="et-page features-box et-page-current">
+                    <i class="fa fa-bookmark-o"></i>
+                    <h3>Click To Reveal Content</h3>
+                    <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense!</p>
+                </div>
+            </article>
         </div>
         <div class="col-md-4 text-center">
-            CLICK THIS BOX
-            <div>Now that we know who you are, I know who I am.</div>
-            I'm not a mistake! It all makes sense!
+            <article class="et-wrapper et-rotate" data-slide-in="moveFromTop" data-slide-out="moveToRightFade">
+                <div class="et-page features-box et-page-current">
+                    <i class="fa fa-bell-o"></i>
+                    <h3>Click This Box</h3>
+                    <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense!</p>
+                </div>
+            </article>
         </div>
     </div>
 </div>
@@ -230,7 +252,8 @@
         <div class="col-md-12 text-center">
             <h5> ABOUT US </h5>
 
-            <h2> The KendoFull Story</h2>
+            <h2>The <span style="color: limegreen;"><b>Kendo</b></span>Full Story</h2>
+
         </div>
     </div>
 </div>
@@ -519,7 +542,9 @@
     </div>
 </div>
 <script>
-    $('.carousel').carousel();
+    $('.carousel').carousel({
+        interval: 3000
+    })
 </script>
 </body>
 </html>
